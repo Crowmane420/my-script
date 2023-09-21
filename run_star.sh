@@ -1,0 +1,22 @@
+STAR --genomeDir /media/goutham/B/Shoot_RNA/genome_index/ --readFilesIn C-0-S1A_1.fq C-0-S1A_2.fq --outFileNamePrefix C0S1 --outSAMtype BAM Unsorted --runThreadN 40 || true
+STAR --genomeDir /media/goutham/B/Shoot_RNA/genome_index/ --readFilesIn C-0-S2A_1.fq C-0-S2A_2.fq --outFileNamePrefix C0S2 --outSAMtype BAM Unsorted --runThreadN 40 || true
+STAR --genomeDir /media/goutham/B/Shoot_RNA/genome_index/ --readFilesIn C-0-S3A_1.fq C-0-S3A_2.fq --outFileNamePrefix C0S3 --outSAMtype BAM Unsorted --runThreadN 40 || true
+STAR --genomeDir /media/goutham/B/Shoot_RNA/genome_index/ --readFilesIn C-4-S1A_1.fq C-4-S1A_2.fq --outFileNamePrefix C4S1 --outSAMtype BAM Unsorted --runThreadN 40 || true
+STAR --genomeDir /media/goutham/B/Shoot_RNA/genome_index/ --readFilesIn C-4-S2A_1.fq C-4-S2A_2.fq --outFileNamePrefix C4S2 --outSAMtype BAM Unsorted --runThreadN 40 || true
+STAR --genomeDir /media/goutham/B/Shoot_RNA/genome_index/ --readFilesIn C-4-S3A_1.fq C-4-S3A_2.fq --outFileNamePrefix C4S3 --outSAMtype BAM Unsorted --runThreadN 40 || true
+STAR --genomeDir /media/goutham/B/Shoot_RNA/genome_index/ --readFilesIn C-8-S1A_1.fq C-8-S1A_2.fq --outFileNamePrefix C8S1 --outSAMtype BAM Unsorted --runThreadN 40 || true
+STAR --genomeDir /media/goutham/B/Shoot_RNA/genome_index/ --readFilesIn C-8-S2A_1.fq C-8-S2A_2.fq --outFileNamePrefix C8S2 --outSAMtype BAM Unsorted --runThreadN 40 || true
+STAR --genomeDir /media/goutham/B/Shoot_RNA/genome_index/ --readFilesIn C-8-S3A_1.fq C-8-S3A_2.fq --outFileNamePrefix C8S3 --outSAMtype BAM Unsorted --runThreadN 40 || true
+STAR --genomeDir /media/goutham/B/Shoot_RNA/genome_index/ --readFilesIn C-16-S1A_1.fq C-16-S1A_2.fq --outFileNamePrefix C16S1 --outSAMtype BAM Unsorted --runThreadN 40 || true
+STAR --genomeDir /media/goutham/B/Shoot_RNA/genome_index/ --readFilesIn C-16-S2A_1.fq C-16-S2A_2.fq --outFileNamePrefix C16S2 --outSAMtype BAM Unsorted --runThreadN 40 || true
+STAR --genomeDir /media/goutham/B/Shoot_RNA/genome_index/ --readFilesIn C-16-S3A_1.fq C-16-S3A_2.fq --outFileNamePrefix C16S3 --outSAMtype BAM Unsorted --runThreadN 40 || true
+STAR --genomeDir /media/goutham/B/Shoot_RNA/genome_index/ --readFilesIn Fs-4-S1A_1.fq Fs-4-S1A_2.fq --outFileNamePrefix F4S1 --outSAMtype BAM Unsorted --runThreadN 40 || true
+STAR --genomeDir /media/goutham/B/Shoot_RNA/genome_index/ --readFilesIn Fs-4-S2A_1.fq Fs-4-S2A_2.fq --outFileNamePrefix F4S2 --outSAMtype BAM Unsorted --runThreadN 40 || true
+STAR --genomeDir /media/goutham/B/Shoot_RNA/genome_index/ --readFilesIn Fs-4-S3A_1.fq Fs-4-S3A_2.fq --outFileNamePrefix F4S3 --outSAMtype BAM Unsorted --runThreadN 40 || true
+STAR --genomeDir /media/goutham/B/Shoot_RNA/genome_index/ --readFilesIn Fs-8-S1A_1.fq Fs-8-S1A_2.fq --outFileNamePrefix F8S1 --outSAMtype BAM Unsorted --runThreadN 40 || true
+STAR --genomeDir /media/goutham/B/Shoot_RNA/genome_index/ --readFilesIn Fs-8-S2A_1.fq Fs-8-S2A_2.fq --outFileNamePrefix F8S2 --outSAMtype BAM Unsorted --runThreadN 40 || true
+STAR --genomeDir /media/goutham/B/Shoot_RNA/genome_index/ --readFilesIn Fs-8-S3A_1.fq Fs-8-S3A_2.fq --outFileNamePrefix F8S3 --outSAMtype BAM Unsorted --runThreadN 40 || true
+STAR --genomeDir /media/goutham/B/Shoot_RNA/genome_index/ --readFilesIn Fs-16-S1A_1.fq Fs-16-S1A_2.fq --outFileNamePrefix F16S1 --outSAMtype BAM Unsorted --runThreadN 40 || true
+STAR --genomeDir /media/goutham/B/Shoot_RNA/genome_index/ --readFilesIn Fs-16-S2A_1.fq Fs-16-S2A_2.fq --outFileNamePrefix F16S2 --outSAMtype BAM Unsorted --runThreadN 40 || true
+STAR --genomeDir /media/goutham/B/Shoot_RNA/genome_index/ --readFilesIn Fs-16-S3A_1.fq Fs-16-S3A_2.fq --outFileNamePrefix F16S3 --outSAMtype BAM Unsorted --runThreadN 40 || true
+

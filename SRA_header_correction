@@ -1,0 +1,14 @@
+#!/bin/bash
+
+mkdir new_folder
+
+for s in ./*_1.fastq
+do
+    cat $s | sed s/_forward// > new_folder/${s%.*}_adj.fastq
+done
+
+for s in ./*_2.fastq
+do
+    cat $s | sed s/_reverse// > new_folder/${s%.*}_adj.fastq
+done
+
